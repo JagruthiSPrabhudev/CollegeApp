@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainPage" >
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/p2b2s2" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_toRightOf="@+id/Button01"
+        android:text="@string/p2b3s3" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_centerVertical="true"
+        android:text="Staff" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/Button02"
+        android:layout_toRightOf="@+id/Button03"
+        android:text="Facilities" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/Button04"
+        android:text="Notification" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_alignRight="@+id/Button03"
+        android:layout_below="@+id/Button03"
+        android:layout_marginTop="31dp"
+        android:text="Attendance" />
+
+       <Button
+        android:id="@+id/Button07"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/Button06"
+        android:layout_toLeftOf="@+id/Button02"
+        android:text="Result" />
+       
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/Button05"
+        android:layout_alignTop="@+id/Button07"
+        android:text="Close" />
+
+ 
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/Button03"
+        android:layout_marginBottom="16dp"
+        android:layout_toLeftOf="@+id/Button01"
+        android:text="@string/p1b1s1" />
+
+</RelativeLayout>
